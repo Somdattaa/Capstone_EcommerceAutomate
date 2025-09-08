@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-08T13:09:36 IST" name="NopCommerce Suite" finished-at="2025-09-08T13:12:42 IST" duration-ms="186486">
+    <groups>
+    </groups>
+    <test started-at="2025-09-08T13:09:36 IST" name="NopCommerce Tests" finished-at="2025-09-08T13:12:42 IST" duration-ms="186486">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@20d525]" started-at="2025-09-08T13:09:50 IST" name="setUp" finished-at="2025-09-08T13:09:53 IST" duration-ms="2983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validLoginTest()[pri:2, instance:tests.LoginTest@20d525]" started-at="2025-09-08T13:09:53 IST" name="validLoginTest" finished-at="2025-09-08T13:10:02 IST" duration-ms="9368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@20d525]" started-at="2025-09-08T13:10:02 IST" name="tearDown" finished-at="2025-09-08T13:10:03 IST" duration-ms="289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.OrderTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.OrderTest@ae13544]" started-at="2025-09-08T13:11:52 IST" name="setUp" finished-at="2025-09-08T13:11:54 IST" duration-ms="2682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testOrderConfirmationUsingLogin()[pri:6, instance:tests.OrderTest@ae13544]" started-at="2025-09-08T13:11:54 IST" name="testOrderConfirmationUsingLogin" finished-at="2025-09-08T13:12:42 IST" duration-ms="47631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOrderConfirmationUsingLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.OrderTest@ae13544]" started-at="2025-09-08T13:12:42 IST" name="tearDown" finished-at="2025-09-08T13:12:42 IST" duration-ms="312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.OrderTest -->
+      <class name="tests.CartTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.CartTest@2002fc1d]" started-at="2025-09-08T13:10:38 IST" name="setUp" finished-at="2025-09-08T13:10:40 IST" duration-ms="2609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCartFlow()[pri:0, instance:tests.CartTest@2002fc1d]" started-at="2025-09-08T13:10:40 IST" name="testCartFlow" finished-at="2025-09-08T13:11:01 IST" duration-ms="20388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCartFlow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CartTest@2002fc1d]" started-at="2025-09-08T13:11:01 IST" name="tearDown" finished-at="2025-09-08T13:11:01 IST" duration-ms="312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CartTest -->
+      <class name="tests.CheckoutTest_">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.CheckoutTest_@69453e37]" started-at="2025-09-08T13:11:01 IST" name="setUp" finished-at="2025-09-08T13:11:05 IST" duration-ms="3446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreditCardPayment_StopAfterAddress()[pri:4, instance:tests.CheckoutTest_@69453e37]" started-at="2025-09-08T13:11:05 IST" name="testCreditCardPayment_StopAfterAddress" finished-at="2025-09-08T13:11:30 IST" duration-ms="25811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreditCardPayment_StopAfterAddress -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CheckoutTest_@69453e37]" started-at="2025-09-08T13:11:30 IST" name="tearDown" finished-at="2025-09-08T13:11:31 IST" duration-ms="315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CheckoutTest_ -->
+      <class name="tests.PaymentTest_">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.PaymentTest_@6f4a47c7]" started-at="2025-09-08T13:11:31 IST" name="setUp" finished-at="2025-09-08T13:11:34 IST" duration-ms="3541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCheckoutFlow_StopAfterPaymentMethod()[pri:4, instance:tests.PaymentTest_@6f4a47c7]" started-at="2025-09-08T13:11:34 IST" name="testCheckoutFlow_StopAfterPaymentMethod" finished-at="2025-09-08T13:11:51 IST" duration-ms="17011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckoutFlow_StopAfterPaymentMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.PaymentTest_@6f4a47c7]" started-at="2025-09-08T13:11:51 IST" name="tearDown" finished-at="2025-09-08T13:11:52 IST" duration-ms="303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.PaymentTest_ -->
+      <class name="tests.RegisterTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.RegisterTest@1fa121e2]" started-at="2025-09-08T13:09:36 IST" name="setUp" finished-at="2025-09-08T13:09:40 IST" duration-ms="3762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="userRegistrationTest()[pri:1, instance:tests.RegisterTest@1fa121e2]" started-at="2025-09-08T13:09:40 IST" name="userRegistrationTest" finished-at="2025-09-08T13:09:50 IST" duration-ms="10107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegistrationTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.RegisterTest@1fa121e2]" started-at="2025-09-08T13:09:50 IST" name="tearDown" finished-at="2025-09-08T13:09:50 IST" duration-ms="384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.RegisterTest -->
+      <class name="tests.SearchTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SearchTest@6200f9cb]" started-at="2025-09-08T13:10:03 IST" name="setUp" finished-at="2025-09-08T13:10:06 IST" duration-ms="3079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchAndAddProductsTest()[pri:3, instance:tests.SearchTest@6200f9cb]" started-at="2025-09-08T13:10:06 IST" name="searchAndAddProductsTest" finished-at="2025-09-08T13:10:37 IST" duration-ms="31714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchAndAddProductsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SearchTest@6200f9cb]" started-at="2025-09-08T13:10:37 IST" name="tearDown" finished-at="2025-09-08T13:10:38 IST" duration-ms="364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SearchTest -->
+    </test> <!-- NopCommerce Tests -->
+  </suite> <!-- NopCommerce Suite -->
+</testng-results>
